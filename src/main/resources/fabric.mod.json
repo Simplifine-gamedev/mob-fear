@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mob-fear",
+  "version": "1.0.0",
+  "name": "Mob Fear",
+  "description": "Mobs learn to fear dominant players based on kill counts",
+  "authors": ["ali77sina"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mobfear.MobFearMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
